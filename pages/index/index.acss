@@ -1,0 +1,130 @@
+.navbar {
+  display: grid;
+  /* justify-content: flex-end;
+  align-items: center; */
+  height: 48px;
+  padding: 16px;
+  color: #108ee9;
+  font-weight: bold;
+
+  /* background-color: rgb(234, 167, 167); */
+}
+.body {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-text.active {
+  color: #1890ff;
+  font-weight: bold;
+  border-bottom: 2rpx solid #1890ff;
+}
+.nav-text {
+  font-size: 48rpx;
+  margin: 0 30rpx;
+}
+
+
+.about {
+  font-size: 16px;
+  justify-content: flex-start;
+  font-weight: bold;
+  color: #108ee9;
+  /* padding: 40rpx; */
+  /* margin-bottom: 32rpx; */
+}
+.title-1 {
+  font-display: 40px;
+  font-weight: bold;
+}
+
+.ant-button {
+  margin-top: 32rpx;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  /* background-color: aquamarine; */
+
+}
+
+/* .form {
+  display: grid;
+  justify-content: center;
+  border-radius: 30rpx;
+  background-color: #d9d9d9;
+  width: 250px;
+  height: 80px;
+  padding: 20px;
+  color: black;
+  border-radius: 40px;
+  margin: 20px;
+  margin-top: 40px;
+} */
+.form {
+  background-color: #c4c0c0;
+  padding: 50rpx;
+  border-radius: 20rpx;
+  /* margin-bottom: 30rpx; */
+  text-align: center;
+  font-size: 32rpx;
+  width: 80%;
+  height: 25%;
+  align-items: center;
+}
+
+/* .container {
+  padding: 16px;
+  background-color: #d9d9d9;
+  color: black;
+  width: 100%;
+  
+} */
+
+.ant-date-picker {
+  display: grid;
+  align-items: center;
+
+}
+.ant-selector {
+  margin-bottom: 16px;
+  display: block;
+}
+
+.ant-button {
+  margin-top: 24px;
+}
+
+/* .form {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  /* margin: 30px; */
+  /* display: grid;
+  align-items: center;
+  justify-content: center;
+
+} */ 
+/* .form {
+  background-color: yellow;
+  width: 300px;
+  height: 250px;
+
+  display: flex; /* Use flexbox for inner content centering */
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */ 
+
+
+.title {
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.input {
+  padding-top: 20px;
+}

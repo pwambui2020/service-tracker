@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "window": {
+    "defaultTitle": "Service Tracker"
+  }
+}
