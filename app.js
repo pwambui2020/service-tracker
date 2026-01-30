@@ -1,6 +1,4 @@
 import enUS from 'antd-mini/es/_locale/en-US';
-// import enUS from 'antd-mini/es/locale/en_US';
-
 
 
 App({

@@ -6,7 +6,7 @@
 
 <view class="form">
   <view class="field">
-    <text class="title">Enter ID (1–3):</text>
+    <text class="title">Enter ID (1–6):</text>
     <view class="input">
       <input type="number" value="{{userInput}} " onInput="onInputChange" placeholder="e.g., 1" />
     </view>

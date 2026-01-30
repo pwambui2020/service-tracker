@@ -8,40 +8,37 @@
     <text class="description">
       This is a simple, lightweight tool for monitoring the uptime and downtime of our services. 
       We will also have a compilation of the services set for a specific time period ie daily, weekly and monthly.
-      This will help get the logs and alerts.
+      This will help with the logs and alerts and more such as : 
     </text>
 
     <view class="features">
       <view class="feature-item">
-        <ant-icon type="CheckOutline" size="24" color="#52c41a" />
+          <ant-icon type="CloseCircleFill" 
+        size="24" color="#52c41a" />
         <text>Monitor individual microservice availability</text>
       </view>
       <view class="feature-item">
-        <ant-icon type="ExclamationOutline" size="24" color="#faad14" />
+        <ant-icon type="ArrowsAltOutline" size="24" color="#faad14" />
         <text>View combined system-wide uptime metrics</text>
       </view>
       <view class="feature-item">
-        <ant-icon type="AddOutline" size="24" color="#1890ff" />
+        <ant-icon type="CheckOutline" size="24" color="#1890ff" />
         <text>Generate custom daily or weekly reports</text>
       </view>
     </view>
 
     <view class="uptime-box">
-      <view class="uptime">
-        <ant-icon type='ChatCheckOutline' />
-        <text>Uptime today: {{uptimeToday}}%</text>
 
+      <view class="feature-item">
+        <ant-icon type='ChatCheckOutline' />
+          <text>Uptime today: {{uptimeToday}}%</text>
+     </view>
+
+      <view class="feature-item">
+        <ant-icon type='ChatCheckOutline' />
+          <text>Uptime this week: {{uptimeWeek}}%</text>
       </view>
-      <view class="downtime">
-        <ant-icon type='ChatCheckOutline' />
-        <text>Uptime this week: {{uptimeWeek}}%</text>
-
-      </view>
-      <!-- <view class="downtime">
-        <ant-icon type='ChatCheckOutline' />
-        <text>Uptime this month: {{uptimeMonth}}%</text>
-
-      </view> -->
+     
     </view>
     <view class="about-btn">
       <ant-button type="primary" block onTap="viewHistory">View History</ant-button>

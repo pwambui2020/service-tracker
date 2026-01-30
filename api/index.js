@@ -16,11 +16,28 @@ const services = [
     "uptime": "30%"
 
   },
+  {
+    "id": "4",
+    "name": "ms-subreg-messenger",
+    "uptime": "40%"
+  },
+  {
+    "id": "5",
+    "name": "ms-subreg-registration",
+    "uptime": "50%"
+
+  },
+  {
+    "id": "6",
+    "name": "ms-subreg-crm",
+    "uptime": "30%"
+
+  },
 ]
 export const getServiceList = () => {
   return new Promise ((resolve, reject) => {
     setTimeout(() => {
       resolve(services)
-    }, 3000);
+    }, 1000);
   })
 }
